@@ -23,3 +23,7 @@ It's modified with code from "Programming Foundations with Python" course on Uda
 ### Notes
 
 All py code was checked with PEP style guide here (<http://pep8online.com/>)
+
+### License
+
+MIT license. See LICENSE for details. http://opensource.org/licenses/MIT
