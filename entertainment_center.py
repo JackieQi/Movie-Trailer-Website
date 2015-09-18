@@ -1,6 +1,15 @@
+#!/usr/bin/env python
 import fresh_tomatoes
 import media
 
+"""This file is used to initialize movies and pass them to fresh_tomatoes.py \
+to create html webpage."""
+
+__author__ = "Jackie Qi"
+__copyright__ = "Copyright 2015, Jackie Qi"
+__credits__ = ["Udacity.com"]
+
+# Initial several moview to display on webpage
 avengers2 = media.Movie("Avengers: Age of Ultron",
                         "When Tony Stark and Bruce Banner try to jump-start a \
                         dormant peacekeeping program  called Ultron, things \
@@ -52,4 +61,5 @@ steve_jobs = media.Movie("Steve Jobs: The Man in the Machine",
 movies = [avengers2, san_andreas, edge_of_tomorrow,
           transformers_age_of_extinction,
           mission_impossible, steve_jobs]
+# call open_movies_page function in fresh_tomatoes.py which will load webpage
 fresh_tomatoes.open_movies_page(movies)

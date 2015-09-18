@@ -1,7 +1,13 @@
+#!/usr/bin/env python
 import webbrowser
 import os
 import re
 
+"""This file use python to create webpage """
+
+__author__ = "Jackie Qi"
+__copyright__ = "Copyright 2015, Jackie Qi"
+__credits__ = ["Udacity.com"]
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -127,6 +133,8 @@ movie_tile_content = '''
 </div>
 '''
 
+# Create movile tiles with data from entertainment_center.py
+
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
@@ -147,6 +155,8 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id
         )
     return content
+
+# Entrance method to create html page with content above
 
 
 def open_movies_page(movies):
